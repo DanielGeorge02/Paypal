@@ -1,7 +1,7 @@
 import React from "react";
 import "../src/CSS/Transaction.css";
 import Avatar from "@mui/material/Avatar";
-import { deepOrange, lightBlue } from "@mui/material/colors";
+import { lightBlue } from "@mui/material/colors";
 
 const Transaction = ({ paypal_data }) => {
   return (
