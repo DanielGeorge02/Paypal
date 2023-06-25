@@ -1,3 +1,7 @@
+[build]
+  command = "CI='' npm run build"
+  publish = "/paypal/build"
+  base ="/activity"
 [[redirects]]
   from = "/*"
   to = "/index.html"
