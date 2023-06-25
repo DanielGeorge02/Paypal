@@ -1,10 +1,43 @@
-.payment_details {
-  height: auto;
-  width: 60%;
+.filters {
+  width: 95%;
+  height: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: left;
 }
-img {
-  height: 20px;
-  width: 20px;
+.filters h2 {
+  font-size: 14px;
+  font-weight: 600;
 }
-.content {
+.filters h1 {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+.filters .filter-btn {
+  display: flex;
+}
+.filter-btn button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: rgb(0, 48, 135);
+  background-color: white;
+  border: 1px solid rgb(189, 188, 188);
+  height: 40px;
+  font-weight: 600;
+  padding: 10px;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+.filter-btn select {
+  height: 40px;
+  font-weight: 600;
+  border-radius: 40px;
+  background-color: rgb(209, 242, 255);
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
 }
