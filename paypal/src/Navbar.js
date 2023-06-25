@@ -15,7 +15,12 @@ const Navbar = () => {
         <button>Send and Request</button>
         <button>Deals</button>
         <button>Wallet</button>
-        <button onClick={() => navigate("/Activity")}>Activity</button>
+        <button
+          onClick={() => navigate("/Activity")}
+          style={{ backgroundColor: "rgb(39,64,155)" }}
+        >
+          Activity
+        </button>
         <button>Help</button>
       </div>
       <div className="settings">

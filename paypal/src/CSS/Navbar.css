@@ -17,6 +17,12 @@ nav button {
   border: none;
   outline: none;
   background: none;
+  margin-top: 20px;
+  /* margin-bottom: 20px; */
+  /* height: 50%; */
+  height: 40px;
+  width: 70px;
+  border-radius: 40px;
   color: rgba(255, 255, 255, 0.8);
   cursor: pointer;
 }
